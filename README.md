@@ -2,6 +2,10 @@
 
 A spec and (eventually, maybe by the time I edit this readme next), an implementation of public social identity for an ethereum address.
 
+
+### What?
+A public, smart contract + IPFS based public identity for Ethereum accounts.
+
 ### Why?
 Web3, and more general, address based authentication (read: message signing) leaves some to be desired. 
 Projects like [uPort](https://developer.uport.me/) are building SSO (Single Sign On) for Ethereum. While this effort is to be applauded, I envision a simpler system.
