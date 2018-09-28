@@ -30,3 +30,6 @@ Think associatiating an ethereum address with a (potentially anonymous) GitHub p
 8. Dapp can now hit contract, resolve the IPFS document, and get user identity on next sign in
 9. Dapp can now hit contract, resolve IPFS data to provide to other users using the dapp.
 
+### WHERES THE SPEC!?!?!
+I'm working on it.
+
