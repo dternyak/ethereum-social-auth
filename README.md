@@ -1,6 +1,6 @@
 # ethereum-social-identity
 
-A spec and (eventually, maybe by the time I edit this readme next), an implementation of public social identity for an ethereum address.
+A spec of public social identity for an ethereum address.
 
 
 ### What?
