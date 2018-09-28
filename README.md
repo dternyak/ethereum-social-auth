@@ -1,10 +1,6 @@
 # ethereum-social-identity
 
-A spec of public social identity for an ethereum address.
-
-
-### What?
-A public, smart contract + IPFS based public identity for Ethereum accounts.
+A smart contract + IPFS based public identity for Ethereum accounts.
 
 ### Why?
 Web3, and more general, address based authentication (read: message signing) leaves some to be desired. 
