@@ -21,8 +21,8 @@ Think associatiating an ethereum address with a (potentially anonymous) GitHub p
 5. Backend checks and validates social media accounts (presumably there is some oAuth done on the client as well)
 6. Backend uploads the user’s form data + signed message to IPFS.
 7. Backend updates an existing smart contract with userAddressHash->[userProfileIPFSDocument].
-    7a. NOTE, in cases where a use is updating an already existing profile, a new IPFS document will be created and pushed to the above mapping. Thus, the current user account state will be found on HEAD.
-    7b. While not fully outlined, the user will need to authorize (read: message sign) another address to act on behalf of them to update the contract, unless the user wants to pay for gas gasts (they don't).
+    - NOTE, in cases where a use is updating an already existing profile, a new IPFS document will be created and pushed to the above mapping. Thus, the current user account state will be found on HEAD.
+    - While not fully outlined, the user will need to authorize (read: message sign) another address to act on behalf of them to update the contract, unless the user wants to pay for gas gasts (they don't).
 8. Dapp can now hit contract, resolve the IPFS document, and get user identity on next sign in
 9. Dapp can now hit contract, resolve IPFS data to provide to other users using the dapp.
 
